@@ -16,4 +16,10 @@ public class Paragraph extends Element {
 	public String toString() {
 		return this.Nume;
 	}
+	
+	@Override
+	public void print() {
+		System.out.println(Nume);
+		
+	}
 }
